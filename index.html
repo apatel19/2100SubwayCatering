@@ -2,9 +2,17 @@
 <html>
   <head>
     <link rel="stylesheet" href="htmlStyles.css" />
+    <style>
+      /* Add CSS for the container div */
+      div.pdf-container {
+        width: 100%;
+        height: 800px; /* Set a fixed height appropriate for your content */
+        overflow: scroll; /* Enable scrolling within the container */
+      }
+    </style>
   </head>
   <body>
-    <div>
+    <div class="pdf-container">
       <object
         data="./Subway_Catering.pdf"
         type="application/pdf"
